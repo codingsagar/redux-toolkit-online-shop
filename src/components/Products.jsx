@@ -18,7 +18,7 @@ const Products = () => {
         Shop Now
         <Badge bg="danger mx-2">50% off</Badge>
       </h2>
-      <div className="mx-5">
+      <div>
         <Button
           variant="primary btn-sm"
           onClick={(e) => dispatch(lowToHighPrice())}
