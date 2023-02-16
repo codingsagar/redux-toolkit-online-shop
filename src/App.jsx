@@ -6,8 +6,8 @@ import { createBrowserRouter ,createRoutesFromElements, Route,RouterProvider} fr
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<Root/>} errorElement={<Root/>}>
-      <Route path="/" index element={<Products />} />
+    <Route path="/redux-toolkit-online-shop" element={<Root/>} errorElement={<Root/>}>
+      <Route path="/redux-toolkit-online-shop" index element={<Products />} />
       <Route path="cart" element={<Cart />} />
     </Route>
   )
