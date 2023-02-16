@@ -14,8 +14,8 @@ function NavbarComp() {
       <Container>
         <Navbar.Brand href="#">E-Shopping</Navbar.Brand>
         <Nav className="me-auto">
-          <Link to="/" style={{textDecoration:"none",color:"white",marginRight:10}}>Home</Link>
-          <Link to="/cart" style={{textDecoration:"none",color:"white",marginRight:15}}>Cart <Badge bg="primary">{cartValue.length}</Badge></Link>
+          <Link to="/redux-toolkit-online-shop" style={{textDecoration:"none",color:"white",marginRight:10}}>Home</Link>
+          <Link to="/redux-toolkit-online-shop/cart" style={{textDecoration:"none",color:"white",marginRight:15}}>Cart <Badge bg="primary">{cartValue.length}</Badge></Link>
           
         </Nav>
       </Container>
